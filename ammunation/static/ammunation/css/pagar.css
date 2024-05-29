@@ -1,0 +1,20 @@
+body {
+    background-color: #f8f9fa; /* Gris claro */
+    color: #212529; /* Negro */
+  }
+  
+  .card {
+    background-color: #ffffff; /* Blanco */
+    border: 1px solid #dee2e6; /* Gris claro */
+  }
+  
+  .btn-primary {
+    background-color: #000000; /* Gris oscuro */
+    border-color: #000000; /* Gris oscuro */
+  }
+  
+  .btn-primary:hover {
+    background-color: #495057; /* Gris */
+    border-color: #495057; /* Gris */
+  }
+  

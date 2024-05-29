@@ -1,0 +1,178 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/fondo_camuflaje.jpg');
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px; 
+}
+
+.logo-image {
+    height: 40px; 
+}
+
+.section-container {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+    background-color: #333;
+}
+
+
+.pistola-box {
+    width: 200px;
+    background-color: #333;
+    border: 3px solid #333;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    color: white;
+}
+
+.pistola-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pistola-box p {
+    margin: 5px 0;
+}
+
+.pistola-box:hover {
+    box-shadow: 0 0 10px white;
+}
+
+
+.filtro {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.filtro-option {
+    margin-bottom: 15px;
+}
+
+.filtro-option label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+#filter {
+    margin-bottom: 20px;
+}
+
+
+.filtro-option select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+.button-container button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+    background-color: #333;
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 15px; 
+    }
+
+    h1 {
+        font-size: 20px; 
+    }
+
+    .logo-image {
+        height: 30px; 
+    }
+
+    .back-button {
+        padding: 6px 10px; 
+    }
+
+    .section-container {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .pistola-box {
+        width: calc(50% - 20px); 
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .pistola-box {
+        width: calc(100% - 20px); 
+    }
+}
+
+
+
+
+
+
+
+
+
